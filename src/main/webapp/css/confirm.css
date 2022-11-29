@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 24, 2022, 9:36:28 PM
+    Author     : quckh
+*/
+
+.comfirm_form {
+    text-align: center;
+    min-width: 350px;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    height: 350px;
+    background-color:#F2C2DC;
+}
+.title{
+    padding-top:10px;
+}
+
+.conf{
+    margin-top: 50px;
+}
+.contit{
+
+    font-weight: bold;
+
+}
+.input{
+    width: 200px;
+    
+}
+

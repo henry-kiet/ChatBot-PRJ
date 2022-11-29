@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 8, 2022, 12:04:52 AM
+    Author     : SE151515 Cao Trong Hieu
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+
+.table{
+    min-width: 400px;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 50px;
+    padding: 0px;
+}
+.register_button{
+    background: white; 
+    color: #188fff;  
+    border-radius: 50px; 
+    border:none;
+    height:50px;
+    width: 180px;
+    text-align: center;
+    margin-left: 30%;
+}
+.from-group{
+    margin-bottom: 20px;
+}
+
+.submit{
+    margin-left: 40%;   
+}
+
+.card{
+    border-radius: 50px;
+}
+
+#h2{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.my-form{
+    font-family: Raleway, sans-serif;
+}
+
+.form-control{   
+    width: 100%;
+    border-radius: 50px;
+}

@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 28, 2022, 11:48:02 PM
+    Author     : SE151515 Cao Trong Hieu
+*/
+
+.btn2 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #47D2E9;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+.btn2:hover {background-color: #47D2E9}
+
+.btn2:active {
+  background-color: #d8d8d8;
+  transform: translateY(4px);
+}

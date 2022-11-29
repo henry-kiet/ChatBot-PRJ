@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2022, 8:24:20 PM
+    Author     : quckh
+*/
+
+.register_form{
+    padding-top: 10px;
+    margin-top: 100px;
+    margin-top: 100px;
+    padding: 20px;
+    width: 700px;
+    height: fit-content;
+    border-radius: 50px;
+    background-color: #F2C2DC;
+    border: none;
+    margin-left: 25%
+}
+.formname{
+    
+}
+.register_header{
+    text-indent: 40%;
+    border-radius: 50px;
+    width: 695px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.register_button{
+    margin: 250px auto;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    border:none;
+    color: #188fff;
+}
+
+.register_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.register_button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.register_button:hover span {
+    padding-right: 25px;
+}
+
+.register_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

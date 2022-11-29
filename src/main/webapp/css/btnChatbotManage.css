@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2022, 5:04:09 PM
+    Author     : quckh
+*/
+
+.generate_button{
+    float: right;
+    border-radius: 50px;
+    background-color: #47D2E9;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 55px;
+    border:none;
+}
+
+.generate_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.generate_button span:after {
+    content: '\254B';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.generate_button:hover span {
+    padding-right: 25px;
+}
+
+.generate_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

@@ -1,0 +1,228 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 28, 2022, 9:49:26 PM
+    Author     : nldta
+*/
+body{
+    font-family:Verdana;
+    font-style: normal;
+    font-size: 16px;
+    color: #444444;
+    background-color: white;    
+}
+.menu2  {   font-family: Arial, Verdana;   font-size: 20px;   margin: 0;   padding: 0;   list-style: none;  } 
+.menu2  > li {   display: block;   position: relative;   float: right; } 
+.menu2 > li > ul { display: none; right: 0px; } 
+.menu2  > li > a {   
+    display: block;   
+    text-decoration: none;   
+    color: #000;     
+    padding: 15px 15px 5px 15px; 
+    background: #F2C2DC;  
+    text-align: right;
+    height: 50px;
+    white-space: nowrap; 
+    border-radius: 50px;
+    margin-top: 10px;
+} 
+.menu2  > li > a:hover { background: #617F8A; } 
+
+.menu2 > li:hover ul { 
+    width: 150px;
+    display: block;   
+    position: absolute; 
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color:#F2C2DC;
+    border-radius: 10px; 
+    padding:10px;
+} 
+
+.menu2 > li:hover li {   
+    float: none;  
+    color: #000;
+    font-size: 16px;
+    margin:10px;
+} 
+.menu2 > li:hover a { background: #F2C2DC; } 
+.menu2 > li:hover li > a:hover { 
+/*    background: ; */
+}
+
+.search_but{
+    width: 500px;
+    border-radius: 10px;
+    border:none;
+    margin-left:100px;
+    padding-top: 5px;
+}
+.admin_btn{
+    width: 90%;
+    height: 50px;
+    background-color: white; 
+}
+.logo{
+    text-align: center; 
+    
+}
+.tables{
+    background: #F2C2DC;
+
+    border: 0px solid white;  
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+
+}
+.admin_btn:hover{
+    opacity: 0.8;
+}
+.menu{
+    background-color: #F2C2DC; 
+    border: 0px solid white; 
+    height: 150vh; 
+    
+}
+.nav{
+    display: block; 
+    margin-top: 1rem;
+    position: relative;
+    text-align: left;
+  
+}
+h3{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+.search_form{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input-group {
+  margin-top: 15px;
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.input-null{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 20%;
+}
+div.accordion.active:after {
+    content: "\2212";
+}
+div.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: none;
+    
+}
+
+.input-group > .form-control, .input-group > .dataTable-input,
+.input-group > .form-select,
+.input-group > .dataTable-selector {
+  position: relative ;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+.input-group > .form-control:focus, .input-group > .dataTable-input:focus,
+.input-group > .form-select:focus,
+.input-group > .dataTable-selector:focus {
+  z-index: 3;
+}
+.input-group .btn {
+  position: relative;
+  z-index: 2;
+}
+.input-group .btn:focus {
+  z-index: 3;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+
+#layoutSidenav {
+  display: flex;
+}
+#layoutSidenav #layoutSidenav_nav {
+  flex-basis: 225px;
+  flex-shrink: 0;
+  transition: transform 0.15s ease-in-out;
+  z-index: 1038;
+  transform: translateX(-225px);
+}
+#layoutSidenav #layoutSidenav_content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+  flex-grow: 1;
+  min-height: calc(100vh - 56px);
+  margin-left: -225px;
+}
+.nav-link:hover, .nav-link:focus {
+  color: #0a58ca;
+}
+.nav-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {
+  padding: 1.75rem 1rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sb-sidenav-light .sb-sidenav-menu .sb-sidenav-menu-heading {
+  color: #adb5bd;
+}
+.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
+  color: rgba(255, 255, 255, 0.25);
+}
+.nav-link{
+    margin-bottom:2em;
+    color: #212529;
+
+}
+.subject{
+
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link.collapsed .sb-sidenav-collapse-arrow {
+  transform: rotate(-90deg);
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+  color: rgba(255, 255, 255, 0.25);
+}
+.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+  color: #adb5bd;
+}

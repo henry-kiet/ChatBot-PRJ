@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 24, 2022, 9:36:28 PM
+    Author     : quckh
+*/
+body{
+
+    background-image: url("/chatbot-test/images/layout.jpg");
+    background-size: cover;
+                
+}
+
+.w-full {
+    width: 100%;
+}
+
+.login_form {
+    min-width: 350px;
+    max-width: 450px;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    height: fit-content;
+    background-color:#F2C2DC;
+}
+
+
+.px-5 {
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+   align-items: center;
+}
+

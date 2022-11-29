@@ -1,0 +1,16 @@
+
+.forget_form{
+    min-width: 350px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    height: 400px;
+    background-color: #F2C2DC;
+    padding-top: 10px;
+    margin-top:100px;
+    text-align: center;
+}
+
